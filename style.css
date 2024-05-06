@@ -1,0 +1,152 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.logo {
+  flex: 1; /* Allow logo to grow to fill available space */
+}
+
+.navigation {
+  flex: 1; /* Allow navigation to grow to fill available space */
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+
+/* Main */
+
+
+
+
+
+/* Containers */
+
+.container1 {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  flex: 1;
+  flex-direction: row;
+
+}
+
+.container1 img {
+  justify-content: space-between;
+  margin-right: 90px;
+  margin-left: 0;
+}
+
+
+
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Portfolio section */
+
+.portfolio-section {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.portfolio-item {
+  flex: 0 0 auto; /* Ensure items don't grow or shrink */
+  margin-right: 10px; /* Adjust margin between items */
+}
+
+.portfolio-item:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.portfolio-item img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.portfolio-section p {
+text-align: center;
+font: 14px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
