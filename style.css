@@ -24,11 +24,13 @@ header {
 .header-container {
   display: flex;
   align-items: center; /* Vertically center items */
+  margin: auto;
+  width: 600px;
 }
 
 .logo {
-  flex: 1; /* Allow logo to grow to fill available space */
-}
+  flex: 1;
+}/* Allow logo to grow to fill available space */
 
 .navigation {
   flex: 1; /* Allow navigation to grow to fill available space */
@@ -41,12 +43,6 @@ header {
 .navigation li:last-child {
   margin-right: 0;
 }
-
-/* Main */
-
-
-
-
 
 /* Containers */
 
